@@ -105,7 +105,7 @@ FILES_LIMIT = int(environ.get("FILES_LIMIT", "48"))
 QUALITY_LIMIT = bool(environ.get('QUALITY_LIMIT', False)) 
 FREE_QUALITIES = ["360p", "480p"]
 
-PORT = int(environ.get("PORT", "8002"))
+PORT = int(environ.get("PORT", "8092"))
 NO_PORT = bool(environ.get('NO_PORT', False))
 APP_NAME = None
 if 'DYNO' in environ:
