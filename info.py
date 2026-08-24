@@ -38,7 +38,7 @@ OWNER = int(os.environ.get("OWNER", "1664503428"))
 CHANNEL_LINK = environ.get('CHANNEL_LINK', 'https://t.me/indian_tha')
 GROUP_LINK = environ.get('GROUP_LINK', 'https://telegram.me/Indian_HDT')
 
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://IndianHDT:Ragul07@indianhdtfiles.yz2qu.mongodb.net/?retryWrites=true&w=majority&appName=IndianHDTFiles")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://bharathaf:bharathafx@cluster0.t5uws3x.mongodb.net/?appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "IndianHDTFiles")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', '')
 MULTIPLE_DB = is_enabled(os.environ.get('MULTIPLE_DB', "False"), False)
